@@ -12,7 +12,7 @@ export const About = () => {
   }
 
   let downloadCV = () => {
-    window.open('/assets/cv/my_cv.pdf')
+    window.open('https://drive.google.com/uc?export=download&id=1envZL_jKRin-HusBbdzBgaENSuL5s1U4')
   }
 
   return (
