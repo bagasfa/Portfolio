@@ -12,7 +12,7 @@ export const About = () => {
   }
 
   let downloadCV = () => {
-    window.location.href = '/assets/cv/CV - Bagas FA.pdf'
+    window.open('/assets/cv/my_cv.pdf')
   }
 
   return (
