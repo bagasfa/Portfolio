@@ -1,0 +1,74 @@
+.sectionContainer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* Roles */
+.listRoles{
+    margin-bottom: 24px;
+}
+.iconRoles{
+    padding: 18px 20px;
+    border-radius: 50px;
+    background-color: var(--color-secondary);
+    color: #fff;
+    text-align: center;
+    width: fit-content;
+}
+.iconRoles > i{
+    font-size: 24px;
+    line-height: 24px;
+}
+.rolesTitle{
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 4px;
+}
+.rolesDesc{
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--color-muted);
+}
+.expNumber{
+    font-size: 35px;
+    line-height: 43px;
+    margin-bottom: 8px;
+}
+.expType{
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/* Experience */
+.expTitle{
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.expList:not(:last-child){
+    margin-bottom: 28px;
+}
+.companyTitle{
+    font-size: 28px;
+    line-height: 38px;
+}
+.workExp{
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-muted);
+    margin-bottom: 16px;
+}
+.companyJobdesk{
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--color-muted);
+}
+a{
+    color: var(--color-muted);
+    margin-bottom: 4px;
+    transition: .3s ease;
+}
+a:hover{
+    color: var(--color-secondary);
+    transition: .3s ease;
+}

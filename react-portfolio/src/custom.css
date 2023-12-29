@@ -1,0 +1,16 @@
+:root{
+    /* Color Pallets */
+    --color-text: #0C0C0C;
+    --color-primary: #576cbc;
+    --color-secondary: #19376d;
+    --color-dark: #0b2447;
+    --color-muted: #5F5F5F;
+    --color-bg: #FFF;
+
+    /* Font Style */
+    --font-roboto: "Roboto";
+}
+a{
+    color: var(--color-text);
+    text-decoration: none;
+}

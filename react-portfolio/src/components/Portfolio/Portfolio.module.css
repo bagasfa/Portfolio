@@ -1,0 +1,50 @@
+.sectionContainer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.portTitle{
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 18px;
+}
+.portCaption{
+    font-size: 38px;
+    line-height: 48px;
+}
+.swiperContainer{
+    height: 100%;
+    padding-top: 48px;
+}
+.portfolioSwiper {
+  width: 100%;
+  height: 100%;
+}
+.swiperImage{
+    display: block;
+    border-radius: 12px;
+    width: 350px;
+    height: 240px;
+    object-fit: cover;
+    object-position: top;
+    box-shadow: 2px 3px 4px rgba(0,0,0,.15);
+    margin-bottom: 38px;
+}
+.portName{
+    display: block;
+    color: var(--color-text);
+}
+.portName:hover,
+.portName:focus{
+    color: var(--color-text);
+}
+.portName > i{
+    font-size: 18px;
+}
+.portName > span{
+    font-size: 20px;
+    line-height: 28px;
+}
+.portName > div{
+    font-size: 16px;
+    margin-top: 8px;
+}
