@@ -32,6 +32,11 @@
     padding-left: 0;
     padding-right: 0;
 }
+@media(max-width: 767px){
+    .sectionContainer{
+        padding: 64px 24px;
+    }
+}
 @media(min-width: 768px){
     .eduList{
         padding-left: 34px;

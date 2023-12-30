@@ -45,7 +45,7 @@ export const Educations = () => {
                         2018 - 2021
                     </div>
                 </div>
-                <div data-aos='fade' data-aos-delay='250' className={`col-md-7 pb-3 pb-md-5 ${styles.eduList}`}>
+                <div data-aos='fade' data-aos-delay='250' className={`col-md-7 pb-0 pb-md-5 ${styles.eduList}`}>
                     <div data-aos='fade-left' className={styles.eduMajor}>
                         D3 - Teknologi Informasi
                     </div>

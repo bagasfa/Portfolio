@@ -18,9 +18,7 @@ export const About = () => {
   return (
     <section id='about' className={`container ${styles.sectionContainer}`}>
         <img data-aos='fade-down' className={`rounded-circle ${styles.profilePic}`} src={getImageUrl('avatar/avatar.png')} alt='Profile' />
-        <div data-aos='fade-down' className={styles.profileName}>
-            Hi! I'm Bagas FA ✌🏻
-        </div>
+        <div data-aos='fade-down' className={styles.profileName}></div>
         <div data-aos='zoom-in-down' data-aos-delay='50' className={styles.profileHeadline}>
           Experienced
           <br/>
@@ -35,7 +33,7 @@ export const About = () => {
               Hire Me
             </button>
           </div>
-          <div className='col-auto px-3'>
+          <div className='col-auto px-3 mt-3 mt-md-0'>
             <button data-aos='fade-up-left' data-aos-duration='450' onClick={downloadCV} className={styles.btnCV} type='button'>
               <span className='align-middle me-3'>
                 Download CV

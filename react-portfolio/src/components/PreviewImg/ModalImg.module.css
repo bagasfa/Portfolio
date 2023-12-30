@@ -1,0 +1,6 @@
+.imgPreview{
+    width: 100%;
+}
+.btnClose:focus{
+    box-shadow: unset;
+}

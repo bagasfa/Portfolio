@@ -15,7 +15,7 @@ export const Contact = () => {
                     </a>
                 </div>
                 <div className='row mx-0'>
-                    <div data-aos='fade-up' className={`col-3 align-self-end px-0 ${styles.footerAddress}`}>
+                    <div data-aos='fade-up' className={`col-md-3 align-self-end text-center text-md-start px-0 order-2 order-md-1 ${styles.footerAddress}`}>
                         <div>
                             Merakurak, 62355
                         </div>
@@ -23,7 +23,7 @@ export const Contact = () => {
                             Tuban, East Java. Indonesia
                         </div>
                     </div>
-                    <div className={`col-9 align-self-end text-end px-0 ${styles.footerSocials}`}>
+                    <div className={`col-md-9 align-self-end text-center text-md-end px-0 mb-4 mb-md-0 order-1 order-md-2 ${styles.footerSocials}`}>
                         <a data-aos='fade-left' data-aos-delay='200' href='https://linkedin.com/in/bagasfaf' target='_blank' className='align-middle'>
                             <i className='bi bi-linkedin align-middle' />
                         </a>

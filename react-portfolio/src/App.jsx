@@ -9,7 +9,7 @@ import { Contact } from './components/Contact/Contact'
 function App() {
 
   return (
-    <div className={styles.app}>
+    <div id='appReact' className={styles.app}>
       <Navbar />
       <About />
       <Experiences />

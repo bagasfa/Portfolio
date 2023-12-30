@@ -67,4 +67,16 @@
     100% {
       text-shadow: 4px 6px 3px rgba(255, 255, 255, 0.5);
     }
-}  
+}
+
+@media(max-width: 767px){
+  .sectionContainer{
+      padding: 64px 24px 100px;
+  }
+  .footerTitle{
+    text-align: center;
+  }
+  .footerSocials a:first-child i{
+      margin-left: 0;
+  }
+}

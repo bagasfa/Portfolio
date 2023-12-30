@@ -72,3 +72,13 @@ a:hover{
     color: var(--color-secondary);
     transition: .3s ease;
 }
+
+@media(max-width: 767px){
+    .sectionContainer{
+        padding: 64px 24px;
+    }
+    .expTitle{
+        text-align: center;
+        margin: 24px 0;
+    }
+}

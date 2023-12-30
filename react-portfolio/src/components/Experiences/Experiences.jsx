@@ -49,7 +49,7 @@ export const Experiences = () => {
                         </div>
                     ))}
                     <div className='row pt-3 mx-0 mt-5'>
-                        <div data-aos='fade-right' data-aos-delay='100' className='col-4'>
+                        <div data-aos='fade-right' data-aos-delay='100' className='col-6 col-md-4 text-center text-md-start'>
                             <div className={styles.expNumber}>
                                 10+
                             </div>
@@ -57,7 +57,7 @@ export const Experiences = () => {
                                 Projects Completed
                             </div>
                         </div>
-                        <div data-aos='fade-left' data-aos-delay='200' className='col-4'>
+                        <div data-aos='fade-left' data-aos-delay='200' className='col-6 col-md-4 text-center text-md-start'>
                             <div className={styles.expNumber}>
                                 2+
                             </div>
@@ -67,7 +67,7 @@ export const Experiences = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-6 ps-0 ps-md-4 pe-0'>
+                <div className='col-md-6 ps-0 ps-md-4 pe-0 mt-5 mt-md-0'>
                     <div data-aos='fade-down' className={styles.expTitle}>
                         My Experiences
                     </div>
