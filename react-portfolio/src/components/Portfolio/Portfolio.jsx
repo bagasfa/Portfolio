@@ -88,14 +88,14 @@ export const Portfolio = () => {
                 Portfolio
             </div>
             <div className='row justify-content-between mx-0'>
-                <div className='col-auto align-self-end px-0'>
+                <div className='col-md-auto align-self-end px-0'>
                     <div data-aos='fade-right' data-aos-delay='50' className={styles.portCaption}>
                         Let's have a look at
                         <br/>
                         my portfolio
                     </div>
                 </div>
-                <div className='col-auto align-self-end px-0'>
+                <div className='col-md-auto align-self-end px-0 mt-4 mt-md-0'>
                     <button type='button' className={`swiperPrev ${styles.navSwiperPrev}`}>
                         <i className='bi bi-chevron-left' />
                     </button>

@@ -69,7 +69,7 @@ export const Experiences = () => {
                 </div>
                 <div className='col-md-6 ps-0 ps-md-4 pe-0 mt-5 mt-md-0'>
                     <div data-aos='fade-down' className={styles.expTitle}>
-                        My Experiences
+                        Experiences
                     </div>
                     <div className={styles.expList}>
                         <div data-aos='fade-left' data-aos-delay='50' className={styles.companyTitle}>

@@ -8,7 +8,7 @@ export const Educations = () => {
     return (
         <section id='educations' className={`container ${styles.sectionContainer}`}>
             <div data-aos='fade-down' className={styles.eduTitle}>
-                My Educations
+                Educations
             </div>
             <div className='row mx-0'>
                 <div className='col-md-5 px-0 pb-3 pb-md-5'>
