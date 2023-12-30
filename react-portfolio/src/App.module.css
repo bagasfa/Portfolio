@@ -5,5 +5,4 @@
     height: 100%;
     color: var(--color-text);
     font-size: calc(14px + .35vmin);
-    overflow-x: hidden;
 }

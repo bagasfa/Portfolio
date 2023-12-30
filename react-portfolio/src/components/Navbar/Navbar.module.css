@@ -4,9 +4,7 @@
     background-color: #FFF;
     z-index: 10;
     transition: .3s ease;
-}
-.navbar.shadow{
-    transition: .3s ease;
+    overflow-x: hidden;
 }
 .menuItems{
     padding: 4px 16px;

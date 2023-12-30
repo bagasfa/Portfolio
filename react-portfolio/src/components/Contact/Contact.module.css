@@ -1,7 +1,8 @@
 .sectionContainer{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    color: #FFF;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #FFF;
+  overflow-x: hidden;
 	-webkit-animation: color-change-2x 3.5s linear infinite alternate both;
 	        animation: color-change-2x 3.5s linear infinite alternate both;
 }
