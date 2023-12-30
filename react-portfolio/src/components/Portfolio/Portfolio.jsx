@@ -3,7 +3,7 @@ import styles from './Portfolio.module.css'
 import PreviewImage from '../PreviewImg/ModalImg'
 import {getImageUrl} from '../../helpers/utils.js'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Autoplay } from 'swiper/modules'
+import { Autoplay, Navigation } from 'swiper/modules'
 import AOS from 'aos'
 import 'swiper/css'
 import 'swiper/css/pagination'
@@ -87,19 +87,36 @@ export const Portfolio = () => {
             <div data-aos='fade-right' className={styles.portTitle}>
                 Portfolio
             </div>
-            <div data-aos='fade-right' data-aos-delay='50' className={styles.portCaption}>
-                Let's have a look at
-                <br/>
-                my portfolio
+            <div className='row justify-content-between mx-0'>
+                <div className='col-auto align-self-end px-0'>
+                    <div data-aos='fade-right' data-aos-delay='50' className={styles.portCaption}>
+                        Let's have a look at
+                        <br/>
+                        my portfolio
+                    </div>
+                </div>
+                <div className='col-auto align-self-end px-0'>
+                    <button type='button' className={`swiperPrev ${styles.navSwiperPrev}`}>
+                        <i className='bi bi-chevron-left' />
+                    </button>
+                    <button type='button' className={`swiperNext ${styles.navSwiperNext} ms-2`}>
+                        <i className='bi bi-chevron-right' />
+                    </button>
+                </div>
             </div>
             <div data-aos='fade-up' className={styles.swiperContainer}>
                 <Swiper
+                    modules={[Autoplay, Navigation]}
                     spaceBetween={30}
                     grabCursor={true}
                     freeMode={true}
                     autoplay={{
                       delay: 3500,
                       disableOnInteraction: false,
+                    }}
+                    navigation={{
+                      prevEl: '.swiperPrev',
+                      nextEl: '.swiperNext',
                     }}
                     breakpoints={{
                         0: {
@@ -112,7 +129,6 @@ export const Portfolio = () => {
                           slidesPerView:3
                         }
                     }}
-                    modules={[Autoplay]}
                     className={styles.portfolioSwiper}
                 >
                     {portfolio.map((item) => (
@@ -132,7 +148,6 @@ export const Portfolio = () => {
                         </SwiperSlide>
                     ))}
                 </Swiper>
-                
             </div>
             <PreviewImage modalId={getModalId} imgUrl={getImgUrl} imgAlt={getImgAlt}/>
         </section>

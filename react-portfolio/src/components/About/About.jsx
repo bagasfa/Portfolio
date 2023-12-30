@@ -25,7 +25,7 @@ export const About = () => {
           Frontend Developer
         </div>
         <div data-aos='zoom-out-up' data-aos-duration='550' className={styles.aboutProfile}>
-          'Unlocking the digital realm with 2 years of frontend developing finesse, I specialize in Svelte, Embedded JavaScript, and Bootstrap sorcery. Picture me as the architect of captivating user experiences, where every line of code is a brushstroke in a masterpiece of innovation. Let's craft a web narrative that not only functions flawlessly but also captivates and inspires.'
+          "Unlocking the digital realm with 2 years of frontend developing finesse, I specialize in Svelte, Embedded JavaScript, and Bootstrap sorcery. Picture me as the architect of captivating user experiences, where every line of code is a brushstroke in a masterpiece of innovation. Let's craft a web narrative that not only functions flawlessly but also captivates and inspires."
         </div>
         <div className='row justify-content-center mx-0'>
           <div className='col-auto px-3'>
