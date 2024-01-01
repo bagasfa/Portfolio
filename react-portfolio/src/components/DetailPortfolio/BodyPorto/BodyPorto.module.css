@@ -54,7 +54,7 @@
 }
 .navSwiperPrev:disabled,
 .navSwiperNext:disabled{
-    opacity: .5;
+    opacity: .5 !important;
     transition: .3s ease;
     -webkit-animation: jello-horizontal 0.9s both;
 	        animation: jello-horizontal 0.9s both;
