@@ -1,0 +1,251 @@
+{
+  "almakkiyah":{
+    "name": "Al-Makkiyah",
+    "images": [
+      {
+        "url": "media/almakkiyah/home.jpeg"
+      },
+      {
+        "url": "media/almakkiyah/shop.jpeg"
+      },
+      {
+        "url": "media/almakkiyah/join.jpeg"
+      },
+      {
+        "url": "media/almakkiyah/contact.jpeg"
+      },
+      {
+        "url": "media/almakkiyah/about.jpeg"
+      },
+      {
+        "url": "media/almakkiyah/product.jpeg"
+      },
+      {
+        "url": "media/almakkiyah/preview.jpeg"
+      },
+      {
+        "url": "media/almakkiyah/balance.jpeg"
+      },
+      {
+        "url": "media/almakkiyah/balance-payout.jpeg"
+      },
+      {
+        "url": "media/almakkiyah/balance-donate.jpeg"
+      },
+      {
+        "url": "media/almakkiyah/account.jpeg"
+      },
+      {
+        "url": "media/almakkiyah/orders.jpeg"
+      },
+      {
+        "url": "media/almakkiyah/checkout.jpeg"
+      },
+      {
+        "url": "media/almakkiyah/checkout-2.jpeg"
+      },
+      {
+        "url": "media/almakkiyah/thanks.jpeg"
+      }
+    ],
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate leo at mi tincidunt lacinia. Donec ut rutrum lectus, sit amet molestie nisl. Proin magna dolor, consectetur condimentum velit non, lacinia malesuada nulla. Ut metus erat, convallis eu est a, placerat efficitur turpis. Nullam interdum metus sit amet consequat varius. Aenean iaculis mauris vel iaculis vulputate. Duis quam quam, ullamcorper in nisi vel, porttitor mattis sapien. Nulla id dolor eget elit fermentum efficitur. Integer viverra augue vitae erat dapibus, in ullamcorper dui vestibulum. Donec ultricies ex massa, a iaculis mi consequat vitae. Nulla eleifend nibh quis egestas suscipit."
+  },
+  "merchant-id":{
+    "name": "Landingpage Merchant.id",
+    "images": [
+      {
+        "url": "media/merchant-id/home.jpeg"
+      },
+      {
+        "url": "media/merchant-id/bisnis.jpeg"
+      },
+      {
+        "url": "media/merchant-id/content-creator.jpeg"
+      },
+      {
+        "url": "media/merchant-id/integration.jpeg"
+      },
+      {
+        "url": "media/merchant-id/price.jpeg"
+      }
+    ],
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate leo at mi tincidunt lacinia. Donec ut rutrum lectus, sit amet molestie nisl. Proin magna dolor, consectetur condimentum velit non, lacinia malesuada nulla. Ut metus erat, convallis eu est a, placerat efficitur turpis. Nullam interdum metus sit amet consequat varius. Aenean iaculis mauris vel iaculis vulputate. Duis quam quam, ullamcorper in nisi vel, porttitor mattis sapien. Nulla id dolor eget elit fermentum efficitur. Integer viverra augue vitae erat dapibus, in ullamcorper dui vestibulum. Donec ultricies ex massa, a iaculis mi consequat vitae. Nulla eleifend nibh quis egestas suscipit."
+  },
+  "merchant-builder":{
+    "name": "Landingpage Merchant Builder",
+    "images": [
+      {
+        "url": "media/merchant-builder/home.jpeg"
+      }
+    ],
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate leo at mi tincidunt lacinia. Donec ut rutrum lectus, sit amet molestie nisl. Proin magna dolor, consectetur condimentum velit non, lacinia malesuada nulla. Ut metus erat, convallis eu est a, placerat efficitur turpis. Nullam interdum metus sit amet consequat varius. Aenean iaculis mauris vel iaculis vulputate. Duis quam quam, ullamcorper in nisi vel, porttitor mattis sapien. Nulla id dolor eget elit fermentum efficitur. Integer viverra augue vitae erat dapibus, in ullamcorper dui vestibulum. Donec ultricies ex massa, a iaculis mi consequat vitae. Nulla eleifend nibh quis egestas suscipit."
+  },
+  "merchant-apps":{
+    "name": "Merchant Apps Enterprise",
+    "images": [
+      {
+        "url": "media/merchant-apps/welcome-2.png"
+      },
+      {
+        "url": "media/merchant-apps/register.png"
+      },
+      {
+        "url": "media/merchant-apps/login.png"
+      },
+      {
+        "url": "media/merchant-apps/profile.png"
+      },
+      {
+        "url": "media/merchant-apps/add-ons.png"
+      },
+      {
+        "url": "media/merchant-apps/balance.png"
+      },
+      {
+        "url": "media/merchant-apps/notif.png"
+      },
+      {
+        "url": "media/merchant-apps/notif-2.png"
+      },
+      {
+        "url": "media/merchant-apps/home-builder.png"
+      },
+      {
+        "url": "media/merchant-apps/landingpage-ov.png"
+      },
+      {
+        "url": "media/merchant-apps/contact.png"
+      },
+      {
+        "url": "media/merchant-apps/contact-ov.png"
+      },
+      {
+        "url": "media/merchant-apps/home-omni.png"
+      },
+      {
+        "url": "media/merchant-apps/home-omni-2.png"
+      },
+      {
+        "url": "media/merchant-apps/orders-1.png"
+      },
+      {
+        "url": "media/merchant-apps/orders-2.png"
+      },
+      {
+        "url": "media/merchant-apps/product-ov.png"
+      },
+      {
+        "url": "media/merchant-apps/inbound.png"
+      },
+      {
+        "url": "media/merchant-apps/inbound-2.png"
+      },
+      {
+        "url": "media/merchant-apps/auto-followup.png"
+      },
+      {
+        "url": "media/merchant-apps/payment.png"
+      },
+      {
+        "url": "media/merchant-apps/home-domain.png"
+      },
+      {
+        "url": "media/merchant-apps/home-cod.png"
+      },
+      {
+        "url": "media/merchant-apps/tracking.png"
+      },
+      {
+        "url": "media/merchant-apps/home-form.png"
+      },
+      {
+        "url": "media/merchant-apps/home-form-2.png"
+      },
+      {
+        "url": "media/merchant-apps/form-ov.png"
+      },
+      {
+        "url": "media/merchant-apps/home-wa.png"
+      }
+    ],
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate leo at mi tincidunt lacinia. Donec ut rutrum lectus, sit amet molestie nisl. Proin magna dolor, consectetur condimentum velit non, lacinia malesuada nulla. Ut metus erat, convallis eu est a, placerat efficitur turpis. Nullam interdum metus sit amet consequat varius. Aenean iaculis mauris vel iaculis vulputate. Duis quam quam, ullamcorper in nisi vel, porttitor mattis sapien. Nulla id dolor eget elit fermentum efficitur. Integer viverra augue vitae erat dapibus, in ullamcorper dui vestibulum. Donec ultricies ex massa, a iaculis mi consequat vitae. Nulla eleifend nibh quis egestas suscipit."
+  },
+  "trueve-id":{
+    "name": "Trueve.id",
+    "images": [
+      {
+        "url": "media/trueve/home.jpg"
+      },
+      {
+        "url": "media/trueve/shop.jpg"
+      },
+      {
+        "url": "media/trueve/about.jpg"
+      },
+      {
+        "url": "media/trueve/product.jpg"
+      },
+      {
+        "url": "media/trueve/testimoni.jpg"
+      },
+      {
+        "url": "media/trueve/account.jpg"
+      },
+      {
+        "url": "media/trueve/orders.jpg"
+      },
+      {
+        "url": "media/trueve/checkout.jpg"
+      },
+      {
+        "url": "media/trueve/thanks.jpg"
+      }
+    ],
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate leo at mi tincidunt lacinia. Donec ut rutrum lectus, sit amet molestie nisl. Proin magna dolor, consectetur condimentum velit non, lacinia malesuada nulla. Ut metus erat, convallis eu est a, placerat efficitur turpis. Nullam interdum metus sit amet consequat varius. Aenean iaculis mauris vel iaculis vulputate. Duis quam quam, ullamcorper in nisi vel, porttitor mattis sapien. Nulla id dolor eget elit fermentum efficitur. Integer viverra augue vitae erat dapibus, in ullamcorper dui vestibulum. Donec ultricies ex massa, a iaculis mi consequat vitae. Nulla eleifend nibh quis egestas suscipit."
+  },
+  "dizaglow":{
+    "name": "Dizaglow",
+    "images": [
+      {
+        "url": "media/dizaglow/home.png"
+      },
+      {
+        "url": "media/dizaglow/shop.png"
+      },
+      {
+        "url": "media/dizaglow/product.png"
+      },
+      {
+        "url": "media/dizaglow/orders.png"
+      },
+      {
+        "url": "media/dizaglow/checkout.png"
+      },
+      {
+        "url": "media/dizaglow/thanks.png"
+      }
+    ],
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate leo at mi tincidunt lacinia. Donec ut rutrum lectus, sit amet molestie nisl. Proin magna dolor, consectetur condimentum velit non, lacinia malesuada nulla. Ut metus erat, convallis eu est a, placerat efficitur turpis. Nullam interdum metus sit amet consequat varius. Aenean iaculis mauris vel iaculis vulputate. Duis quam quam, ullamcorper in nisi vel, porttitor mattis sapien. Nulla id dolor eget elit fermentum efficitur. Integer viverra augue vitae erat dapibus, in ullamcorper dui vestibulum. Donec ultricies ex massa, a iaculis mi consequat vitae. Nulla eleifend nibh quis egestas suscipit."
+  },
+  "iblu":{
+    "name": "iBLU",
+    "images": [
+      {
+        "url": "media/iblu/login.jpeg"
+      },
+      {
+        "url": "media/iblu/home.jpeg"
+      },
+      {
+        "url": "media/iblu/apply.jpeg"
+      },
+      {
+        "url": "media/iblu/event.jpeg"
+      },
+      {
+        "url": "media/iblu/profile.jpeg"
+      }
+    ],
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate leo at mi tincidunt lacinia. Donec ut rutrum lectus, sit amet molestie nisl. Proin magna dolor, consectetur condimentum velit non, lacinia malesuada nulla. Ut metus erat, convallis eu est a, placerat efficitur turpis. Nullam interdum metus sit amet consequat varius. Aenean iaculis mauris vel iaculis vulputate. Duis quam quam, ullamcorper in nisi vel, porttitor mattis sapien. Nulla id dolor eget elit fermentum efficitur. Integer viverra augue vitae erat dapibus, in ullamcorper dui vestibulum. Donec ultricies ex massa, a iaculis mi consequat vitae. Nulla eleifend nibh quis egestas suscipit."
+  }
+}

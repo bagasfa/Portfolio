@@ -1,0 +1,58 @@
+[
+    {
+        "id":"porto_1",
+        "img_url":"media/almakkiyah/home.jpeg",
+        "link_url":"almakkiyah",
+        "icon":"bi-globe-asia-australia",
+        "name":"Al-Makkiyah",
+        "desc":"The skincare storefront built using the tech stack SvelteKit, JavaScript, and Bootstrap"
+    },
+    {
+        "id":"porto_2",
+        "img_url":"media/merchant-id/home.jpeg",
+        "link_url":"merchant-id",
+        "icon":"bi-globe-asia-australia",
+        "name":"Merchant.id",
+        "desc":"Merchant.id landingpage was built only using HTML, CSS, and JavaScript"
+    },
+    {
+        "id":"porto_3",
+        "img_url":"media/merchant-builder/home.jpeg",
+        "link_url":"merchant-builder",
+        "icon":"bi-globe-asia-australia",
+        "name":"Landingpage Merchant Builder",
+        "desc":"Landingpage Merchant Builder was built only using HTML, Bootstrap, and jQuery"
+    },
+    {
+        "id":"porto_4",
+        "img_url":"media/merchant-apps/welcome.png",
+        "link_url":"merchant-apps",
+        "icon":"bi-globe-asia-australia",
+        "name":"Merchant Apps",
+        "desc":"Merchant.id Apps is a Dashboard App and built using Embedded JavaScript, Bootstrap, and Custom PHP Framework"
+    },
+    {
+        "id":"porto_5",
+        "img_url":"media/trueve/home.jpg",
+        "link_url":"trueve-id",
+        "icon":"bi-globe-asia-australia",
+        "name":"Trueve",
+        "desc":"Trueve storefront was built using Embedded JavaScript, Bootstrap, and jQuery"
+    },
+    {
+        "id":"porto_6",
+        "img_url":"media/dizaglow/home.png",
+        "link_url":"dizaglow",
+        "icon":"bi-globe-asia-australia",
+        "name":"Dizaglow",
+        "desc":"Dizaglow storefront was built using Svelte Kit, JavaScript, and Bootstrap"
+    },
+    {
+        "id":"porto_7",
+        "img_url":"media/iblu/home.jpeg",
+        "link_url":"iblu",
+        "icon":"bi-github",
+        "name":"iBLU",
+        "desc":"iBlu is a certification website built using the tech stack HTML, CSS, jQuery, and Native PHP"
+    }
+]

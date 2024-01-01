@@ -2,9 +2,9 @@ import React from 'react'
 import {getImageUrl} from '../../helpers/utils.js'
 import styles from './ModalImg.module.css'
 
-const ModalImg = ({modalId, imgUrl, imgAlt}) => {
+export const PreviewImage = ({imgUrl, imgAlt}) => {
     return (
-        <div className='modal fade' id='testModal' tabIndex='-1' aria-hidden='true'>
+        <div className='modal fade' id='modalPreview' tabIndex='-1' aria-hidden='true'>
             <div className='modal-dialog modal-fullscreen modal-dialog-scrollable'>
                 <div className='modal-content'>
                     <div className='modal-header border-0'>
@@ -19,5 +19,3 @@ const ModalImg = ({modalId, imgUrl, imgAlt}) => {
         </div>
     )
 }
-
-export default ModalImg

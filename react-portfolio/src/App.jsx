@@ -1,7 +1,7 @@
 import styles from './App.module.css'
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import { Home } from './components/Home/Home'
-import { PortfolioDetail } from './components/PortfolioDetail/PortfolioDetail'
+import { PortfolioDetail } from './components/DetailPortfolio/PortfolioDetail/PortfolioDetail'
 
 function App() {
 
