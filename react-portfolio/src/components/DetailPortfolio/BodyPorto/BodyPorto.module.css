@@ -13,7 +13,7 @@
 }
 .projectDesc{
     position: relative;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 28px;
     color: var(--color-dark);
     text-align: justify;
@@ -72,6 +72,9 @@
     @media(max-width:992px){
         .btnImage{
             height: 500px;
+        }
+        .projectDesc{
+            font-size: 16px;
         }
         @media(max-width:567px){
             .btnImage{
