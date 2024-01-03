@@ -12,7 +12,7 @@ import dataPorto from '../../../data/dataPortofolio.json'
 export const PortfolioDetail = () => {
   useEffect(() => {AOS.init()}, [])
   let data = {}
-  
+
   if(
     getPathName() == 'almakkiyah' || 
     getPathName() == 'merchant-id' || 

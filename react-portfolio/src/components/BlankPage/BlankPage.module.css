@@ -13,3 +13,29 @@
     font-size: 24px;
     line-height: 34px;
 }
+.btnReturn {
+    position: relative;
+    display: inline-block;
+    border: none;
+    background: var(--color-primary);
+    color: #FFF;
+    padding: 10px 24px;
+    margin-top: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.3s;
+    border-radius: 12px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    box-shadow: var(--color-secondary) 0px 7px 2px, #000 0px 8px 5px;
+}
+.btnReturn:hover {
+    color: #FFF;
+    opacity: 1;
+}
+
+.btnReturn:active {
+    top: 4px;
+    box-shadow: var(--color-secondary) 0px 3px 2px,#000 0px 3px 5px;
+}

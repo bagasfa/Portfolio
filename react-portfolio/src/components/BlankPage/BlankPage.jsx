@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styles from './BlankPage.module.css'
 import { getImageUrl } from '../../helpers/utils'
 import parseHTML from 'html-react-parser'
@@ -10,6 +11,9 @@ export const BlankPage = ({blankText}) => {
             <div className={styles.blankText}>
                 {parseHTML(blankText)}
             </div>
+            <Link to='/' className={styles.btnReturn}>
+                Back to Home
+            </Link>
         </section>
     )
 }
