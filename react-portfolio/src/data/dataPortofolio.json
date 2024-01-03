@@ -69,16 +69,21 @@
         "url": "media/merchant-id/price.jpeg"
       }
     ],
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate leo at mi tincidunt lacinia. Donec ut rutrum lectus, sit amet molestie nisl. Proin magna dolor, consectetur condimentum velit non, lacinia malesuada nulla. Ut metus erat, convallis eu est a, placerat efficitur turpis. Nullam interdum metus sit amet consequat varius. Aenean iaculis mauris vel iaculis vulputate. Duis quam quam, ullamcorper in nisi vel, porttitor mattis sapien. Nulla id dolor eget elit fermentum efficitur. Integer viverra augue vitae erat dapibus, in ullamcorper dui vestibulum. Donec ultricies ex massa, a iaculis mi consequat vitae. Nulla eleifend nibh quis egestas suscipit."
+    "desc": ""
   },
   "merchant-builder":{
     "name": "Landingpage Merchant Builder",
     "images": [
       {
-        "url": "media/merchant-builder/home.jpeg"
+        "url": "media/merchant-builder/home.jpeg",
+        "is_mobile": false
+      },
+      {
+        "url": "media/merchant-builder/home-mobile.jpeg",
+        "is_mobile": true
       }
     ],
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate leo at mi tincidunt lacinia. Donec ut rutrum lectus, sit amet molestie nisl. Proin magna dolor, consectetur condimentum velit non, lacinia malesuada nulla. Ut metus erat, convallis eu est a, placerat efficitur turpis. Nullam interdum metus sit amet consequat varius. Aenean iaculis mauris vel iaculis vulputate. Duis quam quam, ullamcorper in nisi vel, porttitor mattis sapien. Nulla id dolor eget elit fermentum efficitur. Integer viverra augue vitae erat dapibus, in ullamcorper dui vestibulum. Donec ultricies ex massa, a iaculis mi consequat vitae. Nulla eleifend nibh quis egestas suscipit."
+    "desc": ""
   },
   "merchant-apps":{
     "name": "Merchant Apps Enterprise",
@@ -168,7 +173,7 @@
         "url": "media/merchant-apps/home-wa.png"
       }
     ],
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate leo at mi tincidunt lacinia. Donec ut rutrum lectus, sit amet molestie nisl. Proin magna dolor, consectetur condimentum velit non, lacinia malesuada nulla. Ut metus erat, convallis eu est a, placerat efficitur turpis. Nullam interdum metus sit amet consequat varius. Aenean iaculis mauris vel iaculis vulputate. Duis quam quam, ullamcorper in nisi vel, porttitor mattis sapien. Nulla id dolor eget elit fermentum efficitur. Integer viverra augue vitae erat dapibus, in ullamcorper dui vestibulum. Donec ultricies ex massa, a iaculis mi consequat vitae. Nulla eleifend nibh quis egestas suscipit."
+    "desc": ""
   },
   "trueve-id":{
     "name": "Trueve.id",
@@ -201,7 +206,7 @@
         "url": "media/trueve/thanks.jpg"
       }
     ],
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate leo at mi tincidunt lacinia. Donec ut rutrum lectus, sit amet molestie nisl. Proin magna dolor, consectetur condimentum velit non, lacinia malesuada nulla. Ut metus erat, convallis eu est a, placerat efficitur turpis. Nullam interdum metus sit amet consequat varius. Aenean iaculis mauris vel iaculis vulputate. Duis quam quam, ullamcorper in nisi vel, porttitor mattis sapien. Nulla id dolor eget elit fermentum efficitur. Integer viverra augue vitae erat dapibus, in ullamcorper dui vestibulum. Donec ultricies ex massa, a iaculis mi consequat vitae. Nulla eleifend nibh quis egestas suscipit."
+    "desc": ""
   },
   "dizaglow":{
     "name": "Dizaglow",
@@ -225,7 +230,7 @@
         "url": "media/dizaglow/thanks.png"
       }
     ],
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate leo at mi tincidunt lacinia. Donec ut rutrum lectus, sit amet molestie nisl. Proin magna dolor, consectetur condimentum velit non, lacinia malesuada nulla. Ut metus erat, convallis eu est a, placerat efficitur turpis. Nullam interdum metus sit amet consequat varius. Aenean iaculis mauris vel iaculis vulputate. Duis quam quam, ullamcorper in nisi vel, porttitor mattis sapien. Nulla id dolor eget elit fermentum efficitur. Integer viverra augue vitae erat dapibus, in ullamcorper dui vestibulum. Donec ultricies ex massa, a iaculis mi consequat vitae. Nulla eleifend nibh quis egestas suscipit."
+    "desc": ""
   },
   "iblu":{
     "name": "iBLU",
@@ -246,6 +251,6 @@
         "url": "media/iblu/profile.jpeg"
       }
     ],
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate leo at mi tincidunt lacinia. Donec ut rutrum lectus, sit amet molestie nisl. Proin magna dolor, consectetur condimentum velit non, lacinia malesuada nulla. Ut metus erat, convallis eu est a, placerat efficitur turpis. Nullam interdum metus sit amet consequat varius. Aenean iaculis mauris vel iaculis vulputate. Duis quam quam, ullamcorper in nisi vel, porttitor mattis sapien. Nulla id dolor eget elit fermentum efficitur. Integer viverra augue vitae erat dapibus, in ullamcorper dui vestibulum. Donec ultricies ex massa, a iaculis mi consequat vitae. Nulla eleifend nibh quis egestas suscipit."
+    "desc": ""
   }
 }

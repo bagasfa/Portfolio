@@ -2,10 +2,10 @@ import React from 'react'
 import {getImageUrl} from '../../helpers/utils.js'
 import styles from './ModalImg.module.css'
 
-export const PreviewImage = ({imgUrl, imgAlt}) => {
+export const PreviewImage = ({imgUrl, imgAlt, isMobile = false}) => {
     return (
         <div className='modal fade' id='modalPreview' tabIndex='-1' aria-hidden='true'>
-            <div className='modal-dialog modal-fullscreen modal-dialog-scrollable'>
+            <div className={`modal-dialog ${isMobile?styles.fullscreenMobile:'modal-fullscreen'} modal-dialog-scrollable`}>
                 <div className='modal-content'>
                     <div className='modal-header border-0'>
                         <h5 className='modal-title'>Image Preview</h5>

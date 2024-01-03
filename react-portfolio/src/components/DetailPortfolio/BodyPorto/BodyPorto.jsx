@@ -14,11 +14,13 @@ export const BodyPorto = ({data}) => {
   useEffect(() => {AOS.init()}, [])
 
   let [getImgUrl, setImgUrl] = useState(''),
-      [getImgAlt, setImgAlt] = useState('')
+      [getImgAlt, setImgAlt] = useState(''),
+      [getMobile, setMobile] = useState('')
 
-  const actPreview = (url, name) => {
+  const actPreview = (url, name, isMobile) => {
     setImgUrl(url)
     setImgAlt(name)
+    setMobile(isMobile)
   }
 
   return (
@@ -54,7 +56,7 @@ export const BodyPorto = ({data}) => {
           >
             {data.images.map((item) => (
               <SwiperSlide key={item.url}>
-                <button type='button' className={styles.btnImage} onClick={() => actPreview(item.url, 'Preview')} data-bs-toggle='modal' data-bs-target='#modalPreview'>
+                <button type='button' className={styles.btnImage} onClick={() => actPreview(item.url, 'Preview', item.is_mobile)} data-bs-toggle='modal' data-bs-target='#modalPreview'>
                   <img src={getImageUrl(item.url)} className={styles.swiperImage} alt='Images'/>
                 </button>
               </SwiperSlide>
@@ -78,13 +80,13 @@ export const BodyPorto = ({data}) => {
         </div>
       </section>
 
-      <section data-aos='fade-up' className={`container ${styles.portfolioSection}`}>
+      <section data-aos='fade-up' className={`${data.desc? '' : 'd-none'} container ${styles.portfolioSection}`}>
           <div className={styles.projectDesc}>
-              {parseHTML(data.desc)}
+              {parseHTML(data.desc??'')}
           </div>
       </section>
       
-      <PreviewImage imgUrl={getImgUrl} imgAlt={getImgAlt}/>
+      <PreviewImage imgUrl={getImgUrl} imgAlt={getImgAlt} isMobile={getMobile}/>
     </>
   )
 }
