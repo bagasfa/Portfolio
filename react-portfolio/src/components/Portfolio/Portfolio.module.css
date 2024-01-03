@@ -22,12 +22,27 @@
 }
 .navSwiperPrev,
 .navSwiperNext{
-    background-color: var(--color-secondary);
+    position: relative;
+    display: inline-block;
+    border: none;
+    background: var(--color-primary);
     color: #FFF;
     padding: 8px 12px 7px;
-    border-radius: 8px;
-    border: 0;
-    outline: 0;
+    border-radius: 12px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    box-shadow: var(--color-secondary) 0px 7px 2px, #000 0px 8px 5px;
+}
+.navSwiperPrev:hover,
+.navSwiperNext:hover{
+    color: #FFF;
+    opacity: 1;
+}
+.navSwiperPrev:active,
+.navSwiperNext:active{
+    top: 4px;
+    box-shadow: var(--color-secondary) 0px 3px 2px,#000 0px 3px 5px;
 }
 .navSwiperPrev:disabled,
 .navSwiperNext:disabled{

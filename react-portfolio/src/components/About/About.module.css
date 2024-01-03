@@ -38,13 +38,28 @@
   max-width: 600px;
   margin: 0 auto 34px;
 }
-.btnHire{
-  padding: 12px 36px;
-  border-radius: 28px;
-  background-color: var(--color-primary);
-  border: 0;
-  outline: 0;
+.btnHire {
+  position: relative;
+  display: inline-block;
+  border: none;
+  background: var(--color-primary);
   color: #FFF;
+  padding: 12px 36px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  border-radius: 12px;
+  opacity: 0.8;
+  letter-spacing: 1px;
+  box-shadow: var(--color-secondary) 0px 7px 2px, #000 0px 8px 5px;
+}
+.btnHire:hover {
+  color: #FFF;
+  opacity: 1;
+}
+.btnHire:active {
+  top: 4px;
+  box-shadow: var(--color-secondary) 0px 3px 2px,#000 0px 3px 5px;
 }
 .btnCV{
   border: 0;
@@ -53,6 +68,7 @@
   background-color: #FFF;
   color: var(--color-text);
 }
+.btnHire:active,
 .btnHire:focus,
 .btnCV:focus{
 	-webkit-animation: jello-vertical 0.9s both;
