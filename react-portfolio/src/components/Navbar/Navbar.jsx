@@ -14,9 +14,9 @@ export const Navbar = () => {
         setIcon('bi-x-lg')
         $('#menuContainer').attr('data-shown', true)
     }
-
+    
     let toggleMobileMenu = (e) => {
-        if(getIcon == 'bi-list-nested'){
+        if($('#menuContainer[data-shown=false]').length || $('#menuContainer[data-shown=unset]').length){
             openMenu()
         }else{
             closeMenu()
@@ -40,7 +40,7 @@ export const Navbar = () => {
                     <button type='button' className={styles.mobileToggle} onClick={toggleMobileMenu}>
                         <i className={`bi ${getIcon}`}  />
                     </button>
-                    <div id='menuContainer' data-shown='false' className={`row justify-content-end mx-0 ${styles.mobileMenuContainer}`}>
+                    <div id='menuContainer' data-shown='unset' className={`row justify-content-end mx-0 ${styles.mobileMenuContainer}`}>
                         <a href='#about' onClick={dismissMenu} className={`col-md-auto ${styles.menuItems}`}>
                             About
                         </a>
