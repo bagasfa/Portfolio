@@ -35,12 +35,11 @@
     border-radius: 12px;
     width: 100%;
     height: calc(100vw - 155px);
-    border: 0;
+    border: 1px solid #f2f2f2;
     outline: 0;
 }
 .btnImage:hover,
 .btnImage:focus{
-    border: 0;
     outline: 0;
 }
 .navSwiperPrev,
@@ -76,10 +75,15 @@
         .projectDesc{
             font-size: 16px;
         }
-        @media(max-width:567px){
-            .btnImage{
-                min-height: 200px;
-                height: calc(100vw - 150px);
+        @media(max-width:767px){
+            .portfolioSection{
+                padding: 64px 24px;
+            }
+            @media(max-width:567px){
+                .btnImage{
+                    min-height: 200px;
+                    height: calc(100vw - 150px);
+                }
             }
         }
     }
