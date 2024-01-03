@@ -12,7 +12,7 @@
         "img_url":"media/merchant-id/home.jpeg",
         "link_url":"merchant-id",
         "icon":"bi-globe-asia-australia",
-        "name":"Merchant.id",
+        "name":"Merchant.id Landingpage",
         "desc":"Merchant.id landingpage was built only using HTML, CSS, and JavaScript"
     },
     {
@@ -20,16 +20,16 @@
         "img_url":"media/merchant-builder/home.jpeg",
         "link_url":"merchant-builder",
         "icon":"bi-globe-asia-australia",
-        "name":"Landingpage Merchant Builder",
-        "desc":"Landingpage Merchant Builder was built only using HTML, Bootstrap, and jQuery"
+        "name":"Merchant Builder Landingpage",
+        "desc":"Merchant Builder Landingpage was built only using HTML, Bootstrap, and jQuery"
     },
     {
         "id":"porto_4",
         "img_url":"media/merchant-apps/welcome.png",
         "link_url":"merchant-apps",
         "icon":"bi-globe-asia-australia",
-        "name":"Merchant Apps",
-        "desc":"Merchant.id Apps is a Dashboard App and built using Embedded JavaScript, Bootstrap, and Custom PHP Framework"
+        "name":"Merchant Apps Ecosystem",
+        "desc":"Merchant Apps is a Dashboard App and built using Embedded JavaScript, Bootstrap, and Custom PHP Framework"
     },
     {
         "id":"porto_5",
