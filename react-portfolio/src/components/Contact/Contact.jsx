@@ -16,7 +16,7 @@ export const Contact = ({analytics}) => {
             <div className='container'>
                 <div className={styles.footerTitle}>
                     <div data-aos='fade-right'>Have an idea?</div>
-                    <a data-aos='fade' data-aos-delay='100' href="mailto:bagasmgs@gmail.com">
+                    <a data-aos='fade' data-aos-delay='100' onClick={() => setAnalytics('Email')} href="mailto:bagasmgs@gmail.com">
                         Let's talk about it
                     </a>
                 </div>

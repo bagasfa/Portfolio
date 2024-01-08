@@ -41,6 +41,16 @@
   -webkit-animation: jello-horizontal 0.9s both;
         animation: jello-horizontal 0.9s both;
 }
+@media(min-width:992px){
+  .portfolioSwiper .swiper-slide:not(.swiper-slide-active){
+    transform: scale(.8) translateZ(0) !important;
+    transition: .3s;
+  }
+  .portfolioSwiper .swiper-slide.swiper-slide-active{
+    transform: scale(1);
+    transition: .3s;
+  }
+}
 
 @-webkit-keyframes jello-horizontal {
   0% {

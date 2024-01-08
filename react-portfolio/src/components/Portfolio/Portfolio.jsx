@@ -64,6 +64,7 @@ export const Portfolio = ({analytics}) => {
                     <div data-aos='fade-up' className={styles.swiperContainer}>
                         <Swiper
                             modules={[Autoplay, Navigation, Pagination]}
+                            loop={true}
                             spaceBetween={30}
                             grabCursor={true}
                             freeMode={true}
@@ -91,10 +92,11 @@ export const Portfolio = ({analytics}) => {
                                     slidesPerView: 2,
                                 },
                                 992:{
-                                    slidesPerView:3
+                                    slidesPerView:3,
+                                    centeredSlides:true
                                 }
                             }}
-                            className={styles.portfolioSwiper}
+                            className={`portfolioSwiper ${styles.portfolioSwiper}`}
                         >
                             {portfolio.map((item) => (
                                 <SwiperSlide key={item.id}>
