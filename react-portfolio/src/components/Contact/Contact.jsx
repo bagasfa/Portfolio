@@ -1,10 +1,16 @@
 import React, {useEffect} from 'react'
+import { logEvent } from 'firebase/analytics'
 import styles from './Contact.module.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-export const Contact = () => {
+export const Contact = ({analytics}) => {
     useEffect(() => {AOS.init()}, [])
+
+    let setAnalytics = (pageName) => {
+        logEvent(analytics, 'Check My '+pageName)
+    }
+
     return (
         <section id='contact' className={`${styles.sectionContainer}`}>
             <div className='container'>
@@ -24,13 +30,13 @@ export const Contact = () => {
                         </div>
                     </div>
                     <div className={`col-md-9 align-self-end text-center text-md-end px-0 mb-4 mb-md-0 order-1 order-md-2 ${styles.footerSocials}`}>
-                        <a data-aos='fade-left' data-aos-delay='200' href='https://linkedin.com/in/bagasfaf' target='_blank' className='align-middle'>
+                        <a data-aos='fade-left' data-aos-delay='200' onClick={() => setAnalytics('Linkedin')} href='https://linkedin.com/in/bagasfaf' target='_blank' className='align-middle'>
                             <i className='bi bi-linkedin align-middle' />
                         </a>
-                        <a data-aos='fade-left' data-aos-delay='100' href='https://github.com/bagasfa' target='_blank' className='align-middle'>
+                        <a data-aos='fade-left' data-aos-delay='100' onClick={() => setAnalytics('Github')} href='https://github.com/bagasfa' target='_blank' className='align-middle'>
                             <i className='bi bi-github align-middle' />
                         </a>
-                        <a data-aos='fade-left' href='https://wa.link/6tl7ij' target='_blank' className='align-middle'>
+                        <a data-aos='fade-left' onClick={() => setAnalytics('Whatsapp')} href='https://wa.link/6tl7ij' target='_blank' className='align-middle'>
                             <i className='bi bi-whatsapp align-middle' />
                         </a>
                     </div>

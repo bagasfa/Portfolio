@@ -5,16 +5,18 @@ import { Experiences } from '../Experiences/Experiences'
 import { Educations } from '../Educations/Educations'
 import { Portfolio } from '../Portfolio/Portfolio'
 import { Contact } from '../Contact/Contact'
+import { logEvent } from 'firebase/analytics'
 
-export const Home = () => {
+export const Home = ({analytics}) => {
+    logEvent(analytics, 'Just Visiting')
     return (
         <>
             <Navbar />
-            <About />
+            <About analytics={analytics} />
             <Experiences />
             <Educations />
-            <Portfolio />
-            <Contact />
+            <Portfolio analytics={analytics} />
+            <Contact analytics={analytics} />
         </>
     )
 }

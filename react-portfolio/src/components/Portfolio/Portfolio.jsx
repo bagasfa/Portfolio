@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react'
+import { logEvent } from 'firebase/analytics'
 import { Link } from "react-router-dom";
 import { getImageUrl } from '../../helpers/utils.js'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -12,7 +13,7 @@ import 'swiper/css/pagination'
 
 import dataPorto from '../../data/dataListPorto.json'
 
-export const Portfolio = () => {
+export const Portfolio = ({analytics}) => {
     useEffect(() => {AOS.init()}, [])
     
     let [getImgUrl, setImgUrl] = useState(''),
@@ -23,6 +24,10 @@ export const Portfolio = () => {
     const actPreview = (url, name) => {
         setImgUrl(url)
         setImgAlt(name)
+    }
+
+    let setAnalytic = (name) => {
+        logEvent(analytics, 'View Portfolio "'+name+'"')
     }
 
     return (
@@ -96,7 +101,7 @@ export const Portfolio = () => {
                                     <button type='button' className={styles.btnImage} onClick={() => actPreview(item.img_url, item.name)} data-bs-toggle='modal' data-bs-target='#modalPreview'>
                                         <img src={getImageUrl(item.img_url)} className={styles.swiperImage} alt={item.name}/>
                                     </button>
-                                    <Link to={`/portfolio/${item.link_url}`} className={styles.portName}>
+                                    <Link to={`/portfolio/${item.link_url}`} onClick={() => setAnalytic(item.name)} className={styles.portName}>
                                         <i className={`bi ${item.icon} align-middle`} />
                                         <span className='align-middle ms-3 me-2'>
                                             {item.name}

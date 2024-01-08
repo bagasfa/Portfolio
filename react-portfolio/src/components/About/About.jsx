@@ -1,17 +1,20 @@
 import React, {useEffect} from 'react'
+import { logEvent } from 'firebase/analytics'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import styles from './About.module.css'
 import {getImageUrl} from '../../helpers/utils.js'
 
-export const About = () => {
+export const About = ({analytics}) => {
   useEffect(() => {AOS.init()}, [])
 
   let hireMe = () => {
+    logEvent(analytics, 'Click Hire Button')
     window.open('https://wa.link/y6i1u4','_blank')
   }
 
   let downloadCV = () => {
+    logEvent(analytics, 'Download CV')
     window.open('https://drive.google.com/uc?export=download&id=1envZL_jKRin-HusBbdzBgaENSuL5s1U4')
   }
 
