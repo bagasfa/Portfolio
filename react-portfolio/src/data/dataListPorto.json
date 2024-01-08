@@ -46,13 +46,5 @@
         "icon":"bi-globe-asia-australia",
         "name":"Dizaglow",
         "desc":"Dizaglow storefront was built using Svelte Kit, JavaScript, and Bootstrap"
-    },
-    {
-        "id":"porto_7",
-        "img_url":"media/iblu/home.jpeg",
-        "link_url":"iblu",
-        "icon":"bi-github",
-        "name":"iBLU",
-        "desc":"iBlu is a certification website built using the tech stack HTML, CSS, jQuery, and Native PHP"
     }
 ]

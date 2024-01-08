@@ -19,8 +19,7 @@ export const PortfolioDetail = () => {
     getPathName() == 'merchant-builder' || 
     getPathName() == 'merchant-apps' || 
     getPathName() == 'trueve-id' || 
-    getPathName() == 'dizaglow' || 
-    getPathName() == 'iblu'
+    getPathName() == 'dizaglow'
   ){
     data = dataPorto[getPathName()]
   }else{

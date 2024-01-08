@@ -64,15 +64,15 @@ export const BodyPorto = ({data}) => {
           </Swiper>
           <div className='row justify-content-between mx-0 mt-4'>
               <div className='col-auto align-self-center px-0'>
-                <button data-aos='fade-right' type='button' className={`swiperPrev ${styles.navSwiperPrev}`}>
+                <button type='button' className={`swiperPrev ${styles.navSwiperPrev}`}>
                     <i className='bi bi-chevron-left' />
                 </button>
               </div>
-              <div data-aos='fade-down' className='col-auto align-self-center px-0'>
+              <div className='col-auto align-self-center px-0'>
                 <div className='customPagination' />
               </div>
               <div className='col-auto align-self-center px-0'>
-                <button data-aos='fade-left' type='button' className={`swiperNext ${styles.navSwiperNext}`}>
+                <button type='button' className={`swiperNext ${styles.navSwiperNext}`}>
                     <i className='bi bi-chevron-right' />
                 </button>
               </div>

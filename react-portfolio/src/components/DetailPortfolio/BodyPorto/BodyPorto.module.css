@@ -58,7 +58,6 @@
     color: #FFF;
     padding: 8px 12px 7px;
     border-radius: 12px;
-    opacity: 0.8;
     letter-spacing: 1px;
     transition: 0.3s;
     box-shadow: var(--color-secondary) 0px 7px 2px, #000 0px 8px 5px;
@@ -66,7 +65,6 @@
 .navSwiperPrev:hover,
 .navSwiperNext:hover{
     color: #FFF;
-    opacity: 1;
 }
 .navSwiperPrev:active,
 .navSwiperNext:active{
@@ -75,7 +73,7 @@
 }
 .navSwiperPrev:disabled,
 .navSwiperNext:disabled{
-    opacity: 0 !important;
+    opacity: .5 !important;
     transition: .3s ease;
     -webkit-animation: jello-horizontal 0.9s both;
 	        animation: jello-horizontal 0.9s both;
