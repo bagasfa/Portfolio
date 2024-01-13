@@ -15,7 +15,7 @@ export const About = ({analytics}) => {
 
   let downloadCV = () => {
     logEvent(analytics, 'Download CV')
-    window.open('https://drive.google.com/uc?export=download&id=1envZL_jKRin-HusBbdzBgaENSuL5s1U4')
+    window.open('https://www.cakeresume.com/s--9JzKqWG4GPPL24fs4nLhVA--/bagas-fa','_blank')
   }
 
   return (
