@@ -231,5 +231,77 @@
       }
     ],
     "desc": "<p style='text-align:justify'>&nbsp; &nbsp; &nbsp;In the dynamic realm of skincare commerce, Dizaglow, a trailblazing skincare product enterprise, embarked on a transformative journey in early 2023. Eager to carve its digital presence, the visionary brand partnered with merchant.id, a stalwart in the e-commerce landscape, to birth its own online sales platform. The canvas for this digital masterpiece was to be painted with the strokes of the Merchant Apps Ecosystem, a robust framework for merchandise management.</p><p style='text-align:justify'>&nbsp; &nbsp; &nbsp;With ink still wet on the collaboration contract, the maestros of design at merchant.id UI/UX team embarked on a creative odyssey, fashioning a mockup that would encapsulate Dizaglow&#39;s essence. The design, a visual symphony, was tendered to the Dizaglow team for appraisal, inviting their discerning gaze to ensure harmony with their brand vision. Through the dance of revisions, the design metamorphosed into a true reflection of Dizaglow&#39;s aesthetic.</p><p style='text-align:justify'>&nbsp; &nbsp; &nbsp;The crescendo approached as the meticulously crafted design found its way to the nimble fingers of the Frontend Developer team. Undeterred by the complexities, the team, fueled by the synergy of creativity and precision, brought the vision to life. The tech orchestra, led by the Svelte Framework, JavaScript, Bootstrap CSS, Custom PHP Laravel, MySQL, Workerman, and choreographed by GitHub for version control, played in harmony, weaving a digital tapestry that seamlessly blended form and function.</p><p style='text-align:justify'>&nbsp; &nbsp; &nbsp;As the website unfurled its virtual storefront to the world, it not only met but exceeded expectations. The Backend Developer team, akin to unseen architects, ensured the infrastructure was robust, allowing the website to gracefully handle the surge of national orders. The collaboration, a symphony of technology and business acumen, reached its zenith by the close of 2023.</p><p style='text-align:justify'>&nbsp; &nbsp; &nbsp;In bidding adieu to this chapter, gratitude echoes from both parties. Dizaglow for the opportunity to have its vision crystallized digitally, and merchant.id for the privilege of contributing to this digital opus. To the astute readers, thank you for indulging in the enthralling narrative of this business voyage, where innovation met execution, and success adorned the shelves of e-commerce.</p>"
+  },
+  "forpilots":{
+    "name": "Forpilots by Susi Air",
+    "images": [
+      {
+        "url": "media/forpilots/onboard.png",
+        "is_mobile": true
+      },
+      {
+        "url": "media/forpilots/onboard2.png",
+        "is_mobile": true
+      },
+      {
+        "url": "media/forpilots/onboard3.png",
+        "is_mobile": true
+      },
+      {
+        "url": "media/forpilots/login.png",
+        "is_mobile": true
+      },
+      {
+        "url": "media/forpilots/home.png",
+        "is_mobile": true
+      },
+      {
+        "url": "media/forpilots/schedules.png",
+        "is_mobile": true
+      },
+      {
+        "url": "media/forpilots/base.png",
+        "is_mobile": true
+      },
+      {
+        "url": "media/forpilots/logbook-list.png",
+        "is_mobile": true
+      },
+      {
+        "url": "media/forpilots/logbook-detail.png",
+        "is_mobile": true
+      },
+      {
+        "url": "media/forpilots/logbook-detail2.png",
+        "is_mobile": true
+      },
+      {
+        "url": "media/forpilots/profile.png",
+        "is_mobile": true
+      },
+      {
+        "url": "media/forpilots/modal.png",
+        "is_mobile": true
+      }
+    ],
+    "desc": "<p>I developed a pilot application for Susi Air to streamline and digitize their operational processes. This app serves as a centralized platform for pilots, allowing them to log their flight hours, view schedules assigned by the OCC (Operations Control Center) team, and access crucial information such as documents, base locations, nearby airports, and weather updates. By centralizing these features, the app not only improves workflow efficiency but also enhances the user experience for pilots.</p><p>The application was built using modern frameworks like <strong>Vue.js</strong> for the front end and <strong>Nest.js</strong> for the back end, with <strong>SCSS</strong> used to create a clean and user-friendly interface. To ensure seamless communication, I integrated <strong>Firebase notifications</strong>, enabling pilots to receive real-time alerts whenever their schedules are updated. This feature provides instant updates through in-app pop-ups and web notifications, ensuring pilots stay informed and connected. The app bridges the gap between OCC operations and pilots, offering a comprehensive solution for schedule management and essential flight-related data.</p>"
+  },
+  "dashboard-susiair":{
+    "name": "Susi Air Dashboard (Internal Use Only)",
+    "images": [
+      {
+        "url": "media/dashboard-susiair/overview.png"
+      },
+      {
+        "url": "media/dashboard-susiair/schedules.png"
+      },
+      {
+        "url": "media/dashboard-susiair/crews.png"
+      },
+      {
+        "url": "media/dashboard-susiair/careers.png"
+      }
+    ],
+    "desc": "<p>I developed the internal dashboard for Susi Air as part of a collaborative effort with a backend developer and key stakeholders across the company. As the full-stack developer, I designed the UI and worked closely with the Managing Director, Operations, Business, and Chief Pilot to ensure the application flow aligned with the needs of each department. This collaborative approach helped us build a robust system tailored to the company's operational requirements.</p><p>The dashboard is designed to streamline workflows for six key departments: <strong>Operation Control Center (OCC)</strong>, <strong>HR</strong>, <strong>Chief Pilot</strong>, <strong>Media</strong>, <strong>General Affairs (GA)</strong>, and <strong>Maintenance</strong>. Each department has its own dedicated features and tools within the platform to support their specific tasks, fostering better communication and efficiency across the organization. By consolidating departmental functions into one unified application, the dashboard simplifies complex workflows and enhances productivity.</p><p>Built with the same tech stack as the pilot application—<strong>Vue.js</strong> for the front end, <strong>Nest.js</strong> for the back end, and <strong>SCSS</strong> for styling—the dashboard delivers a seamless user experience. Its consistent design and reliable functionality make it an essential tool for day-to-day operations. By integrating input from various departments, the app ensures that every user has the features and access they need to perform their roles effectively. This project exemplifies how technology can bridge communication gaps and empower teams to work smarter.</p>"
   }
 }

@@ -46,5 +46,21 @@
         "icon":"bi-globe-asia-australia",
         "name":"Dizaglow",
         "desc":"Dizaglow storefront was built using Svelte Kit, JavaScript, and Bootstrap"
+    },
+    {
+        "id":"porto_7",
+        "img_url":"media/forpilots/home.png",
+        "link_url":"forpilots",
+        "icon":"bi-globe-asia-australia",
+        "name":"Forpilots by Susi Air",
+        "desc":"Forpilots was built using VueJs, SCSS, and NestJs"
+    },
+    {
+        "id":"porto_8",
+        "img_url":"media/dashboard-susiair/overview.png",
+        "link_url":"dashboard-susiair",
+        "icon":"bi-globe-asia-australia",
+        "name":"(Internal Use) Susi Air Dashboard",
+        "desc":"Susi Air Dashboard was built using VueJs, SCSS, and NestJs"
     }
 ]

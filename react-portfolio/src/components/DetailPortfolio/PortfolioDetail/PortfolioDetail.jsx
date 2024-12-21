@@ -14,12 +14,14 @@ export const PortfolioDetail = () => {
   let data = {}
 
   if(
-    getPathName() == 'almakkiyah' || 
-    getPathName() == 'merchant-id' || 
-    getPathName() == 'merchant-builder' || 
-    getPathName() == 'merchant-apps' || 
-    getPathName() == 'trueve-id' || 
-    getPathName() == 'dizaglow'
+    getPathName() == 'almakkiyah' ||
+    getPathName() == 'merchant-id' ||
+    getPathName() == 'merchant-builder' ||
+    getPathName() == 'merchant-apps' ||
+    getPathName() == 'trueve-id' ||
+    getPathName() == 'dizaglow' ||
+    getPathName() == 'forpilots' ||
+    getPathName() == 'dashboard-susiair'
   ){
     data = dataPorto[getPathName()]
   }else{

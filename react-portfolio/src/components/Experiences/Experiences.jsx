@@ -8,22 +8,28 @@ export const Experiences = () => {
 
     let roles = [
         {
+            icon:'bi-code',
+            title:'Fullstack Developer',
+            desc:'Code with VueJs, NuxtJs, and NestJs. Also handling GCP Server and Maintain a Local Server',
+            aos:50
+        },
+        {
             icon:'bi-braces-asterisk',
             title:'Front-End Developer',
-            desc:'Code with Svelte, React JS, Bootstrap CSS, jQuery',
-            aos:50
+            desc:'Code with Svelte, ReactJs, Bootstrap CSS, jQuery',
+            aos:100
         },
         {
             icon:'bi-code-slash',
             title:'Back-End Developer',
             desc:'Code with back-end PHP Laravel',
-            aos:100
+            aos:150
         },
         {
             icon:'bi-pc-display',
             title:'IT Support Infrastructure',
             desc:'Install, Clone, Maintenance OS & Install or Maintenance Network things',
-            aos:150
+            aos:200
         }
     ]
 
@@ -51,7 +57,7 @@ export const Experiences = () => {
                     <div className='row pt-3 mx-0 mt-5'>
                         <div data-aos='fade-right' data-aos-delay='100' className='col-6 col-md-4 text-center text-md-start'>
                             <div className={styles.expNumber}>
-                                10+
+                                12+
                             </div>
                             <div className={styles.expType}>
                                 Projects Completed
@@ -59,7 +65,7 @@ export const Experiences = () => {
                         </div>
                         <div data-aos='fade-left' data-aos-delay='200' className='col-6 col-md-4 text-center text-md-start'>
                             <div className={styles.expNumber}>
-                                2+
+                                3+
                             </div>
                             <div className={styles.expType}>
                                 Years Experience
@@ -72,27 +78,43 @@ export const Experiences = () => {
                         Experiences
                     </div>
                     <div className={styles.expList}>
-                        <div data-aos='fade-left' data-aos-delay='50' className={styles.companyTitle}>
-                            PT. Suryaraya Rubberindo Industries
+                        <div data-aos='fade-right' data-aos-delay='50' className={styles.companyTitle}>
+                            PT. ASI Pudjiastuti Aviation
+                            <span className='ms-2'>
+                                (Susi Air)
+                            </span>
                         </div>
-                        <div data-aos='fade-left' data-aos-delay='100' className={styles.workExp}>
+                        <div data-aos='fade-right' data-aos-delay='100' className={styles.workExp}>
                             <span className='align-middle'>
-                                Jan 2017 - Mar 2017
+                              Fullstack Developer
                             </span>
-                            <span className='badge rounded-pill bg-dark align-middle font-16 fw-normal px-3 ms-3'>
-                                Internship
+                            <i className='bi-dot align-middle mx-2'></i>
+                            <span className='align-middle'>
+                                Jan 2024 - Present
                             </span>
                         </div>
-                        <div className={styles.companyJobdesk}>
+                        <div data-aos='fade' data-aos-delay='350' className={styles.companyJobdesk}>
                             <ul>
-                                <li data-aos='fade-left' data-aos-delay='150'>
-                                    Responsible for maintenance of 300+ Client Computers and Virtual Computer
+                                <li data-aos='fade-right' data-aos-delay='150'>
+                                    Designing and developing App using NuxtJs, VueJs, and NestJs Framework
                                 </li>
-                                <li data-aos='fade-left' data-aos-delay='200'>
-                                    Responsible for hardware, network maintenance, documentation, and data of IT goods in the warehouse and installed on the user
+                                <li data-aos='fade-right' data-aos-delay='200'>
+                                    Work collaboratively with business and operation to determine user journey
                                 </li>
-                                <li data-aos='fade-left' data-aos-delay='250'>
-                                    Performing network installation between buildings and Configuring user network routing
+                                <li data-aos='fade-right' data-aos-delay='250'>
+                                    Writing efficient database queries and optimizing database performance
+                                </li>
+                                <li data-aos='fade-right' data-aos-delay='300'>
+                                    Translating the Managing Director's vision into the development of a pilot application and internal company systems
+                                </li>
+                                <li data-aos='fade-right' data-aos-delay='350'>
+                                    Overseeing and driving the ongoing development of the pilot application
+                                </li>
+                                <li data-aos='fade-right' data-aos-delay='400'>
+                                    Leading the migration of a large-scale database, encompassing hundreds of thousands of records, into a new ecosystem
+                                </li>
+                                <li data-aos='fade-right' data-aos-delay='450'>
+                                    Utilizing Google Cloud Platform, to ensure the Susi Group Server is scalable, secure, and optimized
                                 </li>
                             </ul>
                         </div>
@@ -102,6 +124,10 @@ export const Experiences = () => {
                             PT. Codelaris Inti Sinergi
                         </div>
                         <div data-aos='fade-right' data-aos-delay='100' className={styles.workExp}>
+                            <span className='align-middle'>
+                              Front-End Developer
+                            </span>
+                            <i className='bi-dot align-middle mx-2'></i>
                             <span className='align-middle'>
                                 Des 2021 - Des 2023
                             </span>
@@ -189,6 +215,36 @@ export const Experiences = () => {
                                 </li>
                             </ul>
                             By using HTML, Native CSS or Framework CSS like Bootstrap, EJS, JavaScript, and Svelte Kit in the developing process. And also using the API to integrate data from the server into the UI with the help of Backend Developer team.
+                        </div>
+                    </div>
+                    <div className={styles.expList}>
+                        <div data-aos='fade-left' data-aos-delay='50' className={styles.companyTitle}>
+                            PT. Suryaraya Rubberindo Industries
+                        </div>
+                        <div data-aos='fade-left' data-aos-delay='100' className={styles.workExp}>
+                            <span className='align-middle'>
+                              IT Support
+                            </span>
+                            <i className='bi-dot align-middle mx-2'></i>
+                            <span className='align-middle'>
+                                Jan 2017 - Mar 2017
+                            </span>
+                            <span className='badge rounded-pill bg-dark align-middle font-16 fw-normal px-3 ms-3'>
+                                Internship
+                            </span>
+                        </div>
+                        <div className={styles.companyJobdesk}>
+                            <ul>
+                                <li data-aos='fade-left' data-aos-delay='150'>
+                                    Responsible for maintenance of 300+ Client Computers and Virtual Computer
+                                </li>
+                                <li data-aos='fade-left' data-aos-delay='200'>
+                                    Responsible for hardware, network maintenance, documentation, and data of IT goods in the warehouse and installed on the user
+                                </li>
+                                <li data-aos='fade-left' data-aos-delay='250'>
+                                    Performing network installation between buildings and Configuring user network routing
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
