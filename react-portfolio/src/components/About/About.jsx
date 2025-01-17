@@ -8,14 +8,9 @@ import {getImageUrl} from '../../helpers/utils.js'
 export const About = ({analytics}) => {
   useEffect(() => {AOS.init()}, [])
 
-  let hireMe = () => {
-    logEvent(analytics, 'Click Hire Button')
-    window.open('https://wa.link/y6i1u4','_blank')
-  }
-
   let downloadCV = () => {
     logEvent(analytics, 'Download CV')
-    window.open('https://www.cakeresume.com/s--9JzKqWG4GPPL24fs4nLhVA--/bagas-fa','_blank')
+    window.open('https://drive.google.com/file/d/1vvNaK5dnoRTKN-NOcxQYN51mwALhav9m/view?usp=sharing','_blank')
   }
 
   return (
@@ -25,17 +20,12 @@ export const About = ({analytics}) => {
         <div data-aos='zoom-in-down' data-aos-delay='50' className={styles.profileHeadline}>
           Experienced
           <br/>
-          Frontend Developer
+          Web Developer
         </div>
         <div data-aos='zoom-out-up' data-aos-duration='550' className={styles.aboutProfile}>
-          "Unlocking the digital realm with 2 years of frontend developing finesse, I specialize in Svelte, Embedded JavaScript, and Bootstrap sorcery. Picture me as the architect of captivating user experiences, where every line of code is a brushstroke in a masterpiece of innovation. Let's craft a web narrative that not only functions flawlessly but also captivates and inspires."
+          "With 3 years of web development experience, I've become skilled in Svelte, Embedded JavaScript, and Bootstrap. At my last job with Susi Air, I further developed my expertise in Vue.js and NestJS. I see myself as a creator of engaging user experiences, treating each line of code like a stroke in a work of art. Let's build a web experience that works perfectly and also captivates and inspires."
         </div>
         <div className='row justify-content-center mx-0'>
-          <div className='col-auto px-3'>
-            <button data-aos='fade-up-right' data-aos-duration='450' onClick={hireMe} className={styles.btnHire} type='button'>
-              Hire Me
-            </button>
-          </div>
           <div className='col-auto px-3 mt-3 mt-md-0'>
             <button data-aos='fade-up-left' data-aos-duration='450' onClick={downloadCV} className={styles.btnCV} type='button'>
               <span className='align-middle me-3'>
